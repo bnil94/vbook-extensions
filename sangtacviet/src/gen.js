@@ -21,7 +21,7 @@ function execute(url, page) {
                 link: e.select("a").first().attr("href"),
                 cover: img,
                 description: e.select(".searchtag").first().text(),
-                host: "https://sangtacviet.pro"
+                host: "https://sangtacviet.app"
             })
         });
         return Response.success(data, next)
